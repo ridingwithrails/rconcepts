@@ -2,7 +2,7 @@ require 'test/unit'
 
 class Dog 
   def speak
-    "Bark"
+    "WOOF"
   end
 end
 
