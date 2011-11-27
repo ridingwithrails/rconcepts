@@ -1,0 +1,11 @@
+<%= form_tag rconcepts_path do %>
+Query:  <%= text_field_tag 'query' %>
+<%= submit_tag 'save'%>
+<%end%>
+
+<h1><%= @query %></h1>
+
+
+<% @data.each do |r| %>
+  <%= r["name"].gsub(/#{@query}\/\w\//,'').capitalize %> and <%= r["score"]%></br>
+<%end%>
