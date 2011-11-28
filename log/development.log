@@ -1,0 +1,3099 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-11-26 19:22:01 -0800
+Served asset /rails.png - 200 OK (7ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-11-26 19:22:05 -0800
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (3.7ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-11-26 19:31:53 -0800
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-11-26 19:31:56 -0800
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (0.6ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-11-26 19:32:49 -0800
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-11-26 19:32:51 -0800
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (0.4ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 19:37:10 -0800
+
+LoadError (Expected /Users/anis/Sandbox/sandbox/rconcept5/app/controllers/rconcepts_controller.rb to define RconceptsController):
+  
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.5ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 19:37:27 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (0.4ms)
+Compiled application.css  (1ms)  (pid 4026)
+Compiled rconcept.css  (18ms)  (pid 4026)
+Compiled application.js  (5ms)  (pid 4026)
+Compiled jquery.js  (2ms)  (pid 4026)
+Compiled jquery_ujs.js  (0ms)  (pid 4026)
+Compiled rconcept.js  (201ms)  (pid 4026)
+Completed 200 OK in 321ms (Views: 320.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /jquery.js - 200 OK (13ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /rconcept.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /jquery_ujs.js - 200 OK (33ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /rconcept.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 19:37:28 -0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 19:41:08 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (945.4ms)
+Completed 200 OK in 955ms (Views: 954.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 19:41:09 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 19:42:28 -0800
+  Processing by RconceptsController#index as HTML
+ERROR: compiling _app_views_rconcepts_index_html_erb___791902152871600238_2164084840 RAISED /Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:1: syntax error, unexpected keyword_do_block
+...; Rconcept.get_data.each |r| do 
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:4: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_rconcepts_index_html_erb___791902152871600238_2164084840(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rconcepts/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new; Rconcept.get_data.each |r| do 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( r["name"]);@output_buffer.safe_concat(' and ');@output_buffer.append= ( r["score"]);@output_buffer.safe_concat('</br>
+');end;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__3617822776723802973__process_action__2257823117997135104__callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered rconcepts/index.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:1: syntax error, unexpected keyword_do_block
+...; Rconcept.get_data.each |r| do 
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:4: syntax error, unexpected keyword_ensure, expecting $end):
+    1: <% Rconcept.get_data.each |r| do %>
+    2:   <%= r["name"]%> and <%= r["score"]%></br>
+    3: <%end%>
+  
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (400.2ms)
+Completed 200 OK in 408ms (Views: 408.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 19:42:40 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:10:00 -0800
+  Processing by RconceptsController#index as HTML
+ERROR: compiling _app_views_rconcepts_index_html_erb___791902152871600238_2166636300 RAISED /Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:8: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_rconcepts_index_html_erb___791902152871600238_2166636300(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rconcepts/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;form_tag rconcepts_path 
+@output_buffer.safe_concat('<>
+');end
+@output_buffer.safe_concat('
+'); Rconcept.get_data.each do |r| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( r["name"]);@output_buffer.safe_concat(' and ');@output_buffer.append= ( r["score"]);@output_buffer.safe_concat('</br>
+');end;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__3617822776723802973__process_action__2257823117997135104__callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered rconcepts/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:8: syntax error, unexpected keyword_ensure, expecting $end):
+    5: <% Rconcept.get_data.each do |r| %>
+    6:   <%= r["name"]%> and <%= r["score"]%></br>
+    7: <%end%>
+  
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:13:03 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: <%= label_tag 'Query '%> <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2170644480'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170644480'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:13:06 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: <%= label_tag 'Query '%> <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2170644480'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170644480'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:14:05 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: <%= label_tag 'query'%> <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2164182820'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2164182820'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:15:18 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: <%= label_tag 'name', 'query'%> <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2154479000'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2154479000'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.4ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:16:47 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: Query:  <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2177475300'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2177475300'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:16:49 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <% form_tag rconcepts_path do %>
+    2: Query:  <%= text_field_tag %>
+    3: <%=submit_tag 'save'%>
+    4: <%end%>
+    5: 
+  app/views/rconcepts/index.html.erb:2:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2177475300'
+  app/views/rconcepts/index.html.erb:1:in `_app_views_rconcepts_index_html_erb___791902152871600238_2177475300'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:17:44 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1649.7ms)
+Completed 200 OK in 1658ms (Views: 1657.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 22:17:46 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (315.7ms)
+Completed 200 OK in 324ms (Views: 323.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 22:18:13 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:19:58 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Completed 500 Internal Server Error in 5ms
+
+ActionView::MissingTemplate (Missing template rconcepts/create, application/create with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/anis/Sandbox/sandbox/rconcept5/app/views"
+):
+  
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.4ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:52:01 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Completed 500 Internal Server Error in 50ms
+
+NoMethodError (undefined method `Rconcept' for #<RconceptsController:0x00000101de3530>):
+  app/controllers/rconcepts_controller.rb:8:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:52:16 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Completed 500 Internal Server Error in 707ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:8:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:52:58 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Completed 500 Internal Server Error in 245ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:8:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:53:03 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Completed 500 Internal Server Error in 232ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:8:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.1ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:55:47 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 561ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 22:55:48 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"cancer", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 461ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 22:57:36 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:58:35 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"cancer", "commit"=>"save"}
+ERROR: compiling _app_views_rconcepts_index_html_erb___791902152871600238_2163142660 RAISED /Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_rconcepts_index_html_erb___791902152871600238_2163142660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rconcepts/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag rconcepts_path do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('Query:  ');@output_buffer.append= ( text_field_tag 'query' );@output_buffer.safe_concat('
+');@output_buffer.append= ( submit_tag 'save');@output_buffer.safe_concat('
+');end
+@output_buffer.safe_concat('
+<h1>');@output_buffer.append= ( @query );@output_buffer.safe_concat('</h1>
+
+'); @data.each do |r| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(' and ');@output_buffer.append= ( r["score"]);@output_buffer.safe_concat('</br>
+');end;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/anis/Sandbox/sandbox/rconcept5/app/controllers/rconcepts_controller.rb:9:in `create'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__3617822776723802973__process_action__3287832594899272346__callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/conditionalget.rb:35:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered rconcepts/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 321ms
+
+ActionView::Template::Error (/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].sub(/#{query}//)%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 22:58:38 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 22:58:42 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+ERROR: compiling _app_views_rconcepts_index_html_erb___791902152871600238_2163142660 RAISED /Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_rconcepts_index_html_erb___791902152871600238_2163142660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rconcepts/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag rconcepts_path do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('Query:  ');@output_buffer.append= ( text_field_tag 'query' );@output_buffer.safe_concat('
+');@output_buffer.append= ( submit_tag 'save');@output_buffer.safe_concat('
+');end
+@output_buffer.safe_concat('
+<h1>');@output_buffer.append= ( @query );@output_buffer.safe_concat('</h1>
+
+'); @data.each do |r| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(' and ');@output_buffer.append= ( r["score"]);@output_buffer.safe_concat('</br>
+');end;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/anis/Sandbox/sandbox/rconcept5/app/controllers/rconcepts_controller.rb:9:in `create'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__3617822776723802973__process_action__3287832594899272346__callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/conditionalget.rb:35:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered rconcepts/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 321ms
+
+ActionView::Template::Error (/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].sub(/#{query}//)%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:03:03 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+ERROR: compiling _app_views_rconcepts_index_html_erb___791902152871600238_2163142660 RAISED /Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_rconcepts_index_html_erb___791902152871600238_2163142660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "rconcepts/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_tag rconcepts_path do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('Query:  ');@output_buffer.append= ( text_field_tag 'query' );@output_buffer.safe_concat('
+');@output_buffer.append= ( submit_tag 'save');@output_buffer.safe_concat('
+');end
+@output_buffer.safe_concat('
+<h1>');@output_buffer.append= ( @query );@output_buffer.safe_concat('</h1>
+
+'); @data.each do |r| 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(' and ');@output_buffer.append= ( r["score"]);@output_buffer.safe_concat('</br>
+');end;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `module_eval'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:309:in `compile'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:217:in `compile!'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:170:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:55:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/template.rb:169:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:99:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/anis/Sandbox/sandbox/rconcept5/app/controllers/rconcepts_controller.rb:9:in `create'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:416:in `_run__3617822776723802973__process_action__3287832594899272346__callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `block in instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/notifications.rb:53:in `instrument'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/base.rb:121:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:193:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_controller/metal.rb:236:in `block in action'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/routing/route_set.rb:532:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/etag.rb:23:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/conditionalget.rb:35:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/flash.rb:247:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:195:in `context'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/session/abstract/id.rb:190:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/cookies.rb:331:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/query_cache.rb:64:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activerecord-3.1.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/sendfile.rb:101:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/methodoverride.rb:24:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/runtime.rb:17:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/activesupport-3.1.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/lock.rb:15:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/engine.rb:456:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/content_length.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/railties-3.1.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/rack-1.3.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/anis/.rvm/rubies/ruby-1.9.2-head/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered rconcepts/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 420ms
+
+ActionView::Template::Error (/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:9: syntax error, unexpected ')'
+...d= ( r["name"].sub(/#{query}//));@output_buffer.safe_concat(...
+...                               ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:10: syntax error, unexpected keyword_end, expecting ')'
+');end;@output_buffer.to_s
+      ^
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:11: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/anis/Sandbox/sandbox/rconcept5/app/views/rconcepts/index.html.erb:13: syntax error, unexpected keyword_end, expecting ')'):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].sub(/#{query}//)%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 23:05:45 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: 
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].gsub(/#{query}/,'')%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/views/rconcepts/index.html.erb:8:in `_app_views_rconcepts_index_html_erb___791902152871600238_2164783040'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 23:06:07 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: 
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].gsub(/#{@query}/,'')%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/views/rconcepts/index.html.erb:8:in `_app_views_rconcepts_index_html_erb___791902152871600238_2177135820'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 23:06:10 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: 
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].gsub(/#{@query}/,'')%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/views/rconcepts/index.html.erb:8:in `_app_views_rconcepts_index_html_erb___791902152871600238_2177135820'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-11-26 23:07:09 -0800
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/rconcept" for 127.0.0.1 at 2011-11-26 23:07:37 -0800
+
+ActionController::RoutingError (No route matches [GET] "/rconcept"):
+  
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 23:07:42 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    5: 
+    6: <h1><%= @query %></h1>
+    7: 
+    8: <% @data.each do |r| %>
+    9:   <%= r["name"].gsub(/#{@query}/,'')%> and <%= r["score"]%></br>
+    10: <%end%>
+  app/views/rconcepts/index.html.erb:8:in `_app_views_rconcepts_index_html_erb___791902152871600238_2177135820'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-11-26 23:09:16 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:09:16 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:09:16 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:17 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:17 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:17 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:17 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:09:25 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello ", "commit"=>"save"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://conceptnet5.media.mit.edu/data/concept/en/hello /?get=word_senses&per_page=3&max_score=1000):
+  app/models/rconcept.rb:10:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:09:38 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1042ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:09:39 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:10:02 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"helo ", "commit"=>"save"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `chomp=' for nil:NilClass):
+  app/controllers/rconcepts_controller.rb:8:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:10:06 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:10:07 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:10:07 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:10:07 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:10:07 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:10:07 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:10:22 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"helo  ", "commit"=>"save"}
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://conceptnet5.media.mit.edu/data/concept/en/helo  /?get=word_senses&per_page=3&max_score=1000):
+  app/models/rconcept.rb:10:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:17 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:11:19 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"helo   ", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 826ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:20 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:11:24 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"go", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1229ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:11:26 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:12:53 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"go", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 690ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:12:54 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"go", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 614ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"nurse", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 673ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:40 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:13:55 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"oncology", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 402ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:13:56 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:20:16 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 238ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:20:21 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:20:36 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 239ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:26:53 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 230ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:27:12 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 228ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:28:43 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 233ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/models/rconcept.rb:12:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:29:49 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"ellis", "commit"=>"save"}
+Completed 500 Internal Server Error in 229ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:13:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:04 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:32:08 -0800
+
+SyntaxError (/Users/anis/Sandbox/sandbox/rconcept5/app/models/rconcept.rb:18: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/rconcepts_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:32:30 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 892ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:31 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:32:44 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"scholarship", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 637ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:45 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:32:51 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"Grant", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 403ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:32:52 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:33:06 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 235ms
+
+ActionView::Template::Error (undefined method `each' for "Error":String):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:33:28 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 250ms
+
+ActionView::Template::Error (undefined method `each' for "Error":String):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:34:36 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Completed 500 Internal Server Error in 244ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:13:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:35:06 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 250ms
+
+ActionView::Template::Error (undefined method `each' for "Error":String):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:35:23 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 239ms
+
+ActionView::Template::Error (undefined method `gsub' for nil:NilClass):
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:10:in `block in _app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/views/rconcepts/index.html.erb:9:in `each'
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:36:13 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 237ms
+
+ActionView::Template::Error (undefined method `each' for "Error":String):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:36:40 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Completed 500 Internal Server Error in 243ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.reject):
+  app/models/rconcept.rb:13:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:55 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"sara", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 342ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:36:58 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:02 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 336ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:03 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"grant", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 456ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:05 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:18 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"sara", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 332ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:19 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:22 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"love", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1041ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:23 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:42 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"score", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 699ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:43 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"score", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 528ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:37:58 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 330ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:02 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:38:12 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"kill ", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 781ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:13 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:38:23 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"kill", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 587ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:24 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:38:29 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"bit", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 680ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:38:30 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:41:12 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>" red", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 608ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:13 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:41:24 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"red", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 415ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:25 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:41:30 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 250ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:37 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:41:44 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"lost", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 412ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:41:45 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:43:15 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 236ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:46:50 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `blank' for "":String):
+  app/models/rconcept.rb:7:in `get_data'
+  app/controllers/rconcepts_controller.rb:9:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:18 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:21 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"grey", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 756ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-26 23:47:35 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:00 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:16:04 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"black", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1017ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:16:05 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:02 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"black-and-white", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 506ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:03 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:29 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"black and white", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 463ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:30 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:40 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:41 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:46 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 237ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:55 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:17:56 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 243ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:17:59 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:18:44 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 240ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:18:50 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:19:51 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+{"error"=>"invalid uri /concept/en/blue-and-gold"}
+Rendered rconcepts/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 238ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:20:00 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:20:04 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+{"error"=>"invalid uri /concept/en/blue-and-gold"}
+Rendered rconcepts/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 236ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    6: <h1><%= @query %></h1>
+    7: 
+    8: 
+    9: <% @data.each do |r| %>
+    10:   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+    11: <%end%>
+  app/views/rconcepts/index.html.erb:9:in `_app_views_rconcepts_index_html_erb___791902152871600238_2170731140'
+  app/controllers/rconcepts_controller.rb:10:in `create'
+
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/anis/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:21:54 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue and gold", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 283ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:55 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lkXfDWUpl+YpZikAa06Uc1tGQFOGqrj90v/OKxeP+r8=", "query"=>"blue", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 889ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
