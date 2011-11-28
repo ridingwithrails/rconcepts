@@ -6,7 +6,7 @@ class RconceptsController < ApplicationController
   
   def create
     @query = params[:query]
-    @data = Rconcept.get_data(@query.strip)
+    @data = Rconcept.get_data(@query.strip.parameterize)
     render 'index'
   end
   

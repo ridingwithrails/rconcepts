@@ -7,5 +7,5 @@ Query:  <%= text_field_tag 'query' %>
 
 
 <% @data.each do |r| %>
-  <%= r["name"].gsub(/#{@query}\/\w\//,'').capitalize %> and <%= r["score"]%></br>
+  <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
 <%end%>

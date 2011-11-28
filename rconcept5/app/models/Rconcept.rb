@@ -4,12 +4,15 @@ require 'net/http'
 require 'json'
 
 def self.get_data(query=nil)
-  return [] if query.nil?
+  return [] if query.nil? || query == ""
 
-  url = "http://conceptnet5.media.mit.edu/data/concept/en/#{query}/?get=word_senses&per_page=3&max_score=1000"
+  url = "http://conceptnet5.media.mit.edu/data/concept/en/#{query.parameterize}/?get=word_senses&per_page=3&max_score=1000"
   resp = Net::HTTP.get_response(URI.parse(url)) # get_response takes an URI object
   data =  JSON.parse(resp.body)
-  data["word_senses"].reject{|r| r["score"].nil?}
+  return data["word_senses"]  || []
+    
+
+   
 end
 
 end
