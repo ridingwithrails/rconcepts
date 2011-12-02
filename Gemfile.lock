@@ -47,6 +47,7 @@ GEM
     erubis (2.7.0)
     execjs (1.2.9)
       multi_json (~> 1.0)
+    flickraw (0.9.4)
     flyrb (1.0.0.c)
       Platform (>= 0.4.0)
       activesupport
@@ -123,6 +124,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.1)
+  flickraw
   flyrb
   jquery-rails
   mysql

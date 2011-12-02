@@ -3097,3 +3097,268 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-11-27 21:21:59 -0800
 Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/bars" for 127.0.0.1 at 2011-12-01 22:53:08 -0800
+
+ActionController::RoutingError (No route matches [GET] "/bars"):
+  
+
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 22:53:19 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (2375.5ms)
+Compiled application.css  (1ms)  (pid 23764)
+Compiled rconcept.css  (42ms)  (pid 23764)
+Compiled application.js  (4ms)  (pid 23764)
+Compiled jquery.js  (2ms)  (pid 23764)
+Compiled jquery_ujs.js  (0ms)  (pid 23764)
+Compiled rconcept.js  (205ms)  (pid 23764)
+Completed 200 OK in 2846ms (Views: 2845.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 22:53:22 -0800
+Served asset /jquery.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 22:53:22 -0800
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 22:53:22 -0800
+Served asset /rconcept.css - 200 OK (2ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 22:53:22 -0800
+Served asset /rconcept.js - 200 OK (2ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 22:55:58 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (937.7ms)
+Completed 500 Internal Server Error in 943ms
+
+ActionView::Template::Error (undefined method `url' for #<FlickRaw::Response:0x007fb38cace1c0>):
+    22: %>
+    23: 
+    24: <% photos.each do |photo| %>
+    25: 	<%= img_tag photo.url %>
+    26: <%end%>
+  app/views/rconcepts/index.html.erb:25:in `block in _app_views_rconcepts_index_html_erb___3759077102975682301_70204569814920'
+  app/views/rconcepts/index.html.erb:24:in `_app_views_rconcepts_index_html_erb___3759077102975682301_70204569814920'
+
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 22:58:30 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1637.5ms)
+Completed 500 Internal Server Error in 1642ms
+
+ActionView::Template::Error (undefined method `img_tag' for #<#<Class:0x007fb38a474880>:0x007fb38a4673d8>):
+    22: %>
+    23: 
+    24: <% photos.each do |photo| %>
+    25: 	<%= img_tag photo.methods %>
+    26: <%end%>
+  app/views/rconcepts/index.html.erb:25:in `block in _app_views_rconcepts_index_html_erb___3759077102975682301_70204547455060'
+  app/views/rconcepts/index.html.erb:24:in `_app_views_rconcepts_index_html_erb___3759077102975682301_70204547455060'
+
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.3ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 22:59:15 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1202.9ms)
+Completed 200 OK in 1211ms (Views: 1210.4ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 22:59:17 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:17 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:17 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:17 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 22:59:32 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1215.7ms)
+Completed 200 OK in 1223ms (Views: 1223.0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:33 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 22:59:33 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:33 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 22:59:33 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 23:00:31 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (951.4ms)
+Completed 200 OK in 991ms (Views: 990.3ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:00:32 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:00:32 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:00:32 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:00:32 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 23:02:36 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1035.8ms)
+Completed 500 Internal Server Error in 1041ms
+
+ActionView::Template::Error (undefined method `url' for #<FlickRaw::Response:0x007fb38b0ac2d8>):
+    22: %>
+    23: 
+    24: <% photos.each do |photo| %>
+    25: 	<%=  photo.url %>
+    26: <%end%>
+  app/views/rconcepts/index.html.erb:25:in `block in _app_views_rconcepts_index_html_erb___3759077102975682301_70204555681380'
+  app/views/rconcepts/index.html.erb:24:in `_app_views_rconcepts_index_html_erb___3759077102975682301_70204555681380'
+
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/rails/.rvm/gems/ruby-1.9.2-head@sandbox/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 23:05:38 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1733.3ms)
+Completed 200 OK in 1741ms (Views: 1740.4ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:40 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:05:40 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:40 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:40 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/rconcepts" for 127.0.0.1 at 2011-12-01 23:05:55 -0800
+  Processing by RconceptsController#index as HTML
+Rendered rconcepts/index.html.erb within layouts/application (1424.4ms)
+Completed 200 OK in 1432ms (Views: 1432.0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:56 -0800
+Served asset /rconcept.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:05:56 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:56 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:05:56 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-12-01 23:06:49 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ip/iBeoS7S76Uub1OjyuLeFVss7RATKHavHKk9BiMNQ=", "query"=>"hello", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1613.5ms)
+Completed 200 OK in 2617ms (Views: 1625.4ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:06:52 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:06:52 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:06:52 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:06:52 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started POST "/rconcepts" for 127.0.0.1 at 2011-12-01 23:10:12 -0800
+  Processing by RconceptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ip/iBeoS7S76Uub1OjyuLeFVss7RATKHavHKk9BiMNQ=", "query"=>"black", "commit"=>"save"}
+Rendered rconcepts/index.html.erb within layouts/application (1620.3ms)
+Completed 200 OK in 2330ms (Views: 1630.0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:10:14 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:10:14 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:10:14 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:10:14 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.js?body=1" for 127.0.0.1 at 2011-12-01 23:11:06 -0800
+Served asset /rconcept.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-01 23:11:06 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rconcept.css?body=1" for 127.0.0.1 at 2011-12-01 23:11:06 -0800
+Served asset /rconcept.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-01 23:11:06 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)

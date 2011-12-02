@@ -9,3 +9,18 @@ Query:  <%= text_field_tag 'query' %>
 <% @data.each do |r| %>
   <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
 <%end%>
+
+<%
+require 'flickraw'
+
+FlickRaw.api_key="9cf75255edca50b72600c432ec721262"
+FlickRaw.shared_secret="d23a3586b3553273"
+
+photos = flickr.photos.search(:tags => @query)
+
+
+%>
+
+<% photos.each do |photo| %>
+	<%= image_tag FlickRaw.url(photo) %>
+<%end%>
