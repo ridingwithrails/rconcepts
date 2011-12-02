@@ -16,7 +16,7 @@ require 'flickraw'
 FlickRaw.api_key="9cf75255edca50b72600c432ec721262"
 FlickRaw.shared_secret="d23a3586b3553273"
 
-photos = flickr.photos.search(:tags => @query)
+photos = flickr.photos.search(:tags => @query || "dark")
 
 
 %>
