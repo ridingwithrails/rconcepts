@@ -1,3 +1,16 @@
+MY GIT PUSH SCRIPT
+
+read -rp "Type in commit message: " msg
+git add ~/Sites/gfm/fitorbit
+git stash
+git pull ~/Sites/gfm/fitorbit
+git stash pop
+git add ~/Sites/gfm/fitorbit
+git commit -m "$msg"
+git push 
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
