@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
-gem 'mysql'
+# gem 'mysql'
 gem 'flickraw'
+gem 'pg'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -34,6 +35,9 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
+end
+group :development, :test do
+  gem 'rspec-rails'
 end
 
  gem 'flyrb'
