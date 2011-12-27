@@ -1,4 +1,5 @@
-
+<%= stylesheet_link_tag    "lightbox/lightbox" %>
+<%= javascript_include_tag "lightbox/lightbox" %>
 
 <%= form_tag rconcepts_path do %>
 Query:  <%= text_field_tag 'query' %>
@@ -22,7 +23,14 @@ photos = flickr.photos.search(:tags => @query || "dark")
 
 
 %>
-
-<% photos.each do |photo| %>
-	<%= image_tag FlickRaw.url(photo) %>
-<%end%>
+<div id="gallery">
+	<ul>
+	<% photos.each do |photo| %>
+	<li>
+		<a href ="<%= FlickRaw.url(photo) %>" title="Test. $('#gallery a').lightBox();" >
+			<%= image_tag FlickRaw.url(photo), :size => "72x72"%>
+		</a>
+	</li>
+	<%end%>
+	</ul>
+</div>
