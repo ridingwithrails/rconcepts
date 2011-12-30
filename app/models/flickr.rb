@@ -1,7 +1,8 @@
 class Flickr
   
   def self.search_tags(query=nil)
-    flickr.photos.search(:tags => query || "dark")
+    query = "dark" if query.blank?
+    flickr.photos.search(:text => query, :per_page => 5)
   end
 
 end

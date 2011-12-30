@@ -6,8 +6,8 @@ Query:  <%= text_field_tag 'query' %>
 <h1><%= @query %></h1>
 
 
-<% @data.each do |r| %>
-  <%= r["name"].gsub(/#{@query}\/\w\//, '').capitalize %> and <%= r["score"]%></br>
+<% @data.each do |concept| %>
+  <%= formatted_concept(concept) %>.</br>
 <%end%>
 
 
@@ -16,7 +16,7 @@ Query:  <%= text_field_tag 'query' %>
 	<% @photos.each do |photo| %>
 	<li>
 		<a href ="<%= FlickRaw.url(photo) %>" title=<%= photo.title %> >
-			<%= image_tag FlickRaw.url(photo), :size => "72x72"%>
+			<%= image_tag FlickRaw.url(photo), :size => "80x80"%>
 		</a>
 	</li>
 	<%end%>

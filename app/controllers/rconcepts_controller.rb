@@ -6,9 +6,9 @@ class RconceptsController < ApplicationController
   end
   
   def create
-    query = params[:query]
-    @data = Rconcept.get_data(query.strip.parameterize)
-    @photos = Flickr.search_tags(query)
+    @query = params[:query]
+    @data = Rconcept.get_data(@query.strip.parameterize)
+    @photos = Flickr.search_tags(@query)
     render 'index'
   end
   
